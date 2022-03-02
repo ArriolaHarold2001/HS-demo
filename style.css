@@ -1,3 +1,12 @@
+/* 
+FONT SCALE:
+FONT WEIGHT:
+COLOR:
+*/
+
+/* ************** */
+/* GENERAL STYLES */
+/* ************** */
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +19,28 @@
   text-align: center;
 }
 
+/* PADDING EXAMPLE STYLES */
+/* ********************** */
+body {
+  /* background-image: url("https://cdn1.dotesports.com/wp-content/uploads/2021/09/13060218/narutoooh.jpg"); */
+  color: black;
+}
+/* 
+h1 {
+  float: left;
+}
+h2 {
+  float: right;
+} */
+
+.box {
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* TABLE STYLES */
+/* ************ */
 .main-table {
   font-size: 30px;
   border-collapse: collapse;
@@ -49,22 +80,4 @@ th[scope="col"] {
 
 .flash {
   background-color: beige;
-}
-
-body {
-  /* background-image: url("https://cdn1.dotesports.com/wp-content/uploads/2021/09/13060218/narutoooh.jpg"); */
-  color: black;
-}
-/* 
-h1 {
-  float: left;
-}
-h2 {
-  float: right;
-} */
-
-.box {
-  background-color: white;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
