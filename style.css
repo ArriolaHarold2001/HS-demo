@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.main-table {
+  font-size: 30px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.main-table_head th {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+th[scope="row"] {
+  background-color: red;
+}
+
+td[scope="col"],
+th[scope="col"] {
+  border: solid 5px green;
+}
+
+.main-table_body td {
+  padding: 10px;
+}
+
+.main-table_body tr:nth-child(even) {
+  background-color: aquamarine;
+}
+.main-table_body tr:nth-child(odd) {
+  background-color: aqua;
+}
+
+.batman {
+  background-color: blanchedalmond;
+}
+
+.flash {
+  background-color: beige;
+}
+
+body {
+  /* background-image: url("https://cdn1.dotesports.com/wp-content/uploads/2021/09/13060218/narutoooh.jpg"); */
+  color: black;
+}
+/* 
+h1 {
+  float: left;
+}
+h2 {
+  float: right;
+} */
+
+.box {
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
